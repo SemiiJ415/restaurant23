@@ -196,7 +196,7 @@ input[type="search"] {
 .offer-text {
     border: 1px solid orange;
     color: var(--gray1);
-    font-size: calc(8px + (12 - 8) * ((100vw - 300px) / (1600 -300)));
+    font-size: calc(6px + (10 - 6) * ((100vw - 300px) / (1600 -300)));
 }
 
 .offer-link {
@@ -247,4 +247,49 @@ input[type="search"] {
 
 #client5 {
     font-family: var(--client4);
+}
+
+#infoSection {
+    padding: 40px 0;
+    background-color: var(--gray2);
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ft-about-text, .blog-item, .address-item {
+    color: #aaa;
+    font-size: calc(8px + (12 - 8) * ((100vw - 300px) / (1600 -300)));
+}
+
+.ft-link {
+    font-size: calc(8px + (12 - 8) * ((100vw - 300px) / (1600 -300)));
+}
+
+.blog-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.blog-item:first-child {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #aaa;
+}
+
+.blog-item:last-child {
+    padding-top: 15px;
+}
+
+/* about.html */
+
+#aboutMain {
+    padding: 40px 0;
+    background-color: var(--bg1);
+}
+
+.about-block {
+    padding: 40px 20px 80px;
+    background-color: #fff;
 }
