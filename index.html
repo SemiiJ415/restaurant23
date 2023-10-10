@@ -133,9 +133,256 @@
     <main class="main" id="main">
         <section class="section" id="carouselSection">
             <div class="tint"></div>
+            <div class="container caro-container">
+                <div class="carousel slide" id="myCarousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="slide 2"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/tacos12.jpg" alt="food 1" class="d-block w-100 carousel-img img-fluid">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="carousel-heading">food pic!</h2>
+                                <p class="carousel-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/tacos223.jpg" alt="food 1" class="d-block w-100 carousel-img img-fluid">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="carousel-heading">food pic!</h2>
+                                <p class="carousel-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/shortrib2.jpg" alt="food 1" class="d-block w-100 carousel-img img-fluid">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="carousel-heading">food pic!</h2>
+                                <p class="carousel-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">next</span>
+                    </button>
+    
+                </div>
+
+            </div>
+        </section>
+        <section class="section" id="cardSection">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid" />
+                            <div class="card-body">
+                                <h2 class="card-heading text-uppercase">Lorem, ipsum.</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="offerSection">
+            <div class="container">
+                <div class="row">
+                    <h2 class="offer-heading fst-italic">Reservations and orders may be placed at anytime</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-6">
+                        <div class="offer-box d-flex flex-column flex-md-row justify-content-md-between">
+                            <!-- icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cup-fill offer-icon" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M.11 3.187A.5.5 0 0 1 .5 3h13a.5.5 0 0 1 .488.608l-.22.991a3.001 3.001 0 0 1-1.3 5.854l-.132.59A2.5 2.5 0 0 1 9.896 13H4.104a2.5 2.5 0 0 1-2.44-1.958L.012 3.608a.5.5 0 0 1 .098-.42Zm12.574 6.288a2 2 0 0 0 .866-3.899l-.866 3.9Z"/>
+                            </svg>
+                            <div class="offer-block">
+                                <h3 class="offer-subheading">
+                                    <span class="offer text-uppercase d-block">offer one</span>
+                                    Lorem, ipsum dolor.
+                                </h3>
+                                <p class="offer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus tenetur suscipit corporis itaque autem omnis numquam non aspernatur a sint ab reiciendis molestiae doloribus eos aliquid nesciunt eveniet corrupti dignissimos, mollitia, accusantium eius voluptatem, obcaecati quo facilis. Labore similique perferendis soluta accusamus veritatis voluptatum eius, corrupti, minus est, tenetur in reprehenderit sunt expedita? Veniam similique ad, velit voluptatum esse nesciunt.</p>
+                                <a href="#" class="offer-link text-danger">
+                                <!-- icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                Click here
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="offer-box d-flex flex-column flex-md-row justify-content-md-between">
+                            <!-- icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cup-fill offer-icon" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M.11 3.187A.5.5 0 0 1 .5 3h13a.5.5 0 0 1 .488.608l-.22.991a3.001 3.001 0 0 1-1.3 5.854l-.132.59A2.5 2.5 0 0 1 9.896 13H4.104a2.5 2.5 0 0 1-2.44-1.958L.012 3.608a.5.5 0 0 1 .098-.42Zm12.574 6.288a2 2 0 0 0 .866-3.899l-.866 3.9Z"/>
+                            </svg>
+                            <div class="offer-block">
+                                <h3 class="offer-subheading">
+                                    <span class="offer text-uppercase d-block">offer one</span>
+                                    Lorem, ipsum dolor.
+                                </h3>
+                                <p class="offer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus tenetur suscipit corporis itaque autem omnis numquam non aspernatur a sint ab reiciendis molestiae doloribus eos aliquid nesciunt eveniet corrupti dignissimos, mollitia, accusantium eius voluptatem, obcaecati quo facilis. Labore similique perferendis soluta accusamus veritatis voluptatum eius, corrupti, minus est, tenetur in reprehenderit sunt expedita? Veniam similique ad, velit voluptatum esse nesciunt.</p>
+                                <a href="#" class="offer-link text-danger">
+                                <!-- icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                Click here
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="offer-box d-flex flex-column flex-md-row justify-content-md-between">
+                            <!-- icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cup-fill offer-icon" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M.11 3.187A.5.5 0 0 1 .5 3h13a.5.5 0 0 1 .488.608l-.22.991a3.001 3.001 0 0 1-1.3 5.854l-.132.59A2.5 2.5 0 0 1 9.896 13H4.104a2.5 2.5 0 0 1-2.44-1.958L.012 3.608a.5.5 0 0 1 .098-.42Zm12.574 6.288a2 2 0 0 0 .866-3.899l-.866 3.9Z"/>
+                            </svg>
+                            <div class="offer-block">
+                                <h3 class="offer-subheading">
+                                    <span class="offer text-uppercase d-block">offer one</span>
+                                    Lorem, ipsum dolor.
+                                </h3>
+                                <p class="offer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus tenetur suscipit corporis itaque autem omnis numquam non aspernatur a sint ab reiciendis molestiae doloribus eos aliquid nesciunt eveniet corrupti dignissimos, mollitia, accusantium eius voluptatem, obcaecati quo facilis. Labore similique perferendis soluta accusamus veritatis voluptatum eius, corrupti, minus est, tenetur in reprehenderit sunt expedita? Veniam similique ad, velit voluptatum esse nesciunt.</p>
+                                <a href="#" class="offer-link text-danger">
+                                <!-- icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                Click here
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer class="footer" id="footer"></footer>
+    <footer class="footer" id="footer">
+        <section class="section" id="clientSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col client-col"><p class="client text-capitalize text-center" id="client1">client logo</p>
+                    </div>
+                    <div class="col client-col"><p class="client text-capitalize text-center" id="client2">client logo</p> 
+                    </div>
+                    <div class="col client-col d-none d-md-block"><p class="client text-capitalize text-center" id="client3">client logo</p> 
+                    </div>
+                    <div class="col client-col d-none d-md-block"><p class="client text-capitalize text-center" id="client4">client logo</p> 
+                    </div>
+                    <div class="col d-none d-md-block"><p class="client text-capitalize text-center" id="client5">client logo</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="infoSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2 class="footer-about text-uppercase">about us</h2>
+                        <p class="ft-about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sit nesciunt quia!</p>
+                        <p class="ft-about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet commodi unde dolorum voluptatum aspernatur, iste, consectetur numquam nihil dicta, necessitatibus magnam. Quos repudiandae quas quia?</p>
+                        <a href="#" class="ft-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                            Read more
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="footer-heading text-uppercase">our blog</h2>
+                        <ul class="blog-list">
+                            <li class="blog-item">
+                                <span class="text-light d-block">Lorem ipsum dolor sit amet.</span>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eius porro fuga cupiditate cumque earum ipsa!
+                            </li>
+                            <li class="blog-item">
+                                <span class="text-light d-block">Lorem ipsum dolor sit amet.</span>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eius porro fuga cupiditate cumque earum ipsa!
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="footer-heading text-uppercase">our flickr</h2>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="footer-heading text-uppercase">get in touch</h2>
+                        <ul class="address">
+                            <li class="address-item">
+                                123 Conch Street
+                            </li>
+                            <li class="address-item">
+                                Bikini Bottom, 59102
+                            </li>
+                            <li class="address-item">
+                                Work Phone
+                                <a href="#">281-330-8004</a>
+                            </li>
+                            <li class="address-item">
+                                Email
+                                <a href="mailto:jarissa415@gmail.com">Jarissa415@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
